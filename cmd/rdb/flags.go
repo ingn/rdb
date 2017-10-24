@@ -9,7 +9,7 @@ import (
 
 	"github.com/codegangsta/cli"
 	"github.com/dustin/go-humanize"
-	"github.com/unigraph/rdb"
+	"github.com/ingn/rdb"
 )
 
 const (

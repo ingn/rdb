@@ -6,7 +6,7 @@ import (
 	"log"
 
 	"github.com/codegangsta/cli"
-	"github.com/unigraph/rdb"
+	"github.com/ingn/rdb"
 )
 
 func init() {

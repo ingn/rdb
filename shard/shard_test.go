@@ -6,7 +6,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/unigraph/rdb"
+	"github.com/ingn/rdb"
 )
 
 func TestOpen(t *testing.T) {

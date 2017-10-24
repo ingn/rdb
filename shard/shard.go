@@ -8,7 +8,7 @@ import (
 	"regexp"
 	"sync"
 
-	"github.com/unigraph/rdb"
+	"github.com/ingn/rdb"
 )
 
 var ShardNameFn = func(i uint) string { return fmt.Sprintf("%03d", i) }
