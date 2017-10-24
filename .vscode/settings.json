@@ -1,8 +1,0 @@
-{
-    //"sync-rsync.remote": "gaspi@b01.unigraph.rocks:/home/gaspi/go/src/github.com/unigraph/ug",
-    "sync-rsync.remote": "gaspiman@35.184.226.172:/home/gaspiman/go/src/github.com/ingn/rdb",
-    "sync-rsync.onSave": true,
-    "sync-rsync.delete": true,
-    "sync-rsync.autoHideOutput": true,
-    "git.ignoreLimitWarning": true
- }
