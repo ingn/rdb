@@ -233,9 +233,8 @@ func (o *Options) SetOptions(dbOptions *rdb.Options) {
 	dbOptions.SetMaxBytesForLevelMultiplier(o.MaxBytesForLevelMultiplier)
 	dbOptions.SetTargetFileSizeBase(uint64(o.TargetFileSizeBase))
 	dbOptions.SetTargetFileSizeMultiplier(o.TargetFileSizeMultiplier)
-	dbOptions.SetSourceCompactionFactor(o.SourceCompactionFactor)
+	//dbOptions.SetSourceCompactionFactor(o.SourceCompactionFactor)
 	dbOptions.SetDisableAutoCompactions(o.DisableAutoCompactions)
-
 }
 
 func (f flags) setOptions(dbOptions *rdb.Options, c *cli.Context) {

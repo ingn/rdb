@@ -9,7 +9,7 @@ import (
 	"time"
 
 	"github.com/codegangsta/cli"
-	"github.com/ingn/
+	"github.com/ingn/rdb"
 )
 
 func init() {
